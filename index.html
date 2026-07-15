@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan Reyes — Portfolio</title>
+<meta name="description" content="A portfolio spanning engineering, digital solutions, creative art, photography, gardening, and nonprofit work.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="brand-dot"></span>Jordan Reyes <span>/ portfolio</span></a>
+    <button class="nav-toggle" aria-expanded="false">MENU</button>
+    <ul class="nav-links">
+      <li><a href="engineering.html">Engineering</a></li>
+      <li><a href="digital-solutions.html">Digital Solutions</a></li>
+      <li><a href="creative-art.html">Creative Art</a></li>
+      <li><a href="photography.html">Photography</a></li>
+      <li><a href="gardening.html">Gardening</a></li>
+      <li><a href="nonprofit.html">Nonprofit</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="blob-field">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+  <div class="wrap">
+    <p class="eyebrow">Six practices, one person</p>
+    <h1>A working breakdown of <em>what I actually spend my time on.</em></h1>
+    <p class="hero-lede">Click a wedge below to see what's really behind each number — the projects, the hours, the reasons. This chart is a living document; the split shifts as my work does.</p>
+  </div>
+</header>
+
+<section class="chart-section">
+  <div class="wrap">
+    <div class="chart-card">
+      <div class="chart-grid">
+        <div>
+          <div class="chart-holder">
+            <svg id="pie-svg" viewBox="0 0 420 420" aria-label="Interactive breakdown of practices">
+              <text id="center-pct" x="210" y="200" text-anchor="middle" class="chart-center pct"></text>
+              <text id="center-lbl" x="210" y="228" text-anchor="middle" class="chart-center lbl"></text>
+            </svg>
+          </div>
+          <div class="legend" id="legend"></div>
+        </div>
+        <div class="detail-panel" id="detail-panel"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bio-section">
+  <div class="wrap">
+    <div class="bio-card">
+      <div class="photo-slot round">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+        <span class="ps-label">Add your headshot</span>
+        <span class="ps-note">Square, min 600×600</span>
+      </div>
+      <div class="bio-copy">
+        <p class="eyebrow">About me</p>
+        <h2>Hi, I'm Jordan.</h2>
+        <p class="placeholder-note">Placeholder bio — swap this in for your real story anytime.</p>
+        <p>I split my time across six practices that don't obviously belong together — engineering, digital products, a small art business, photography, gardening, and nonprofit work — but each one feeds the others more than you'd think. [Add a paragraph here: how you got started, what ties it all together, what you're working on now.]</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="mailto:hello@example.com">Get in touch</a>
+          <a class="btn btn-ghost" href="#">Résumé / CV ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="wrap">
+    <div class="strip-head">
+      <h3>Every practice, one click away</h3>
+      <p>Each area has its own page with real projects, process notes, and the details the pie chart doesn't have room for.</p>
+    </div>
+    <div class="card-row">
+      <a class="p-card" href="engineering.html" style="--dot:#4A6FA5">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="M19.4 13a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V19a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 8.98 17.3a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 13a1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 6.98a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 8.96 2.6a1.7 1.7 0 0 0 1-1.55V1a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V7a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1Z"/></svg></span>
+          <span class="pct">25%</span>
+        </span>
+        <h4>Engineering</h4>
+        <span class="arrow">→</span>
+      </a>
+      <a class="p-card" href="digital-solutions.html" style="--dot:#3E6B6B">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.5" y="4.5" width="19" height="14" rx="1.5"/><path d="M2.5 8.5h19"/><circle cx="5.3" cy="6.5" r="0.6" fill="currentColor" stroke="none"/><circle cx="7.1" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg></span>
+          <span class="pct">20%</span>
+        </span>
+        <h4>Digital Solutions</h4>
+        <span class="arrow">→</span>
+      </a>
+      <a class="p-card" href="creative-art.html" style="--dot:#B8734A">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21c-4.4 0-8-2.7-8-7 0-3 2-4 4-4s3 1.3 3 3-1 2.5-2.5 2.5"/><path d="M9 10c0-4.4 3.6-8 8-8 2 0 3.5 1.2 3.5 3S19 8 17 8s-3-1-3-2.5"/></svg></span>
+          <span class="pct">18%</span>
+        </span>
+        <h4>Creative Art Business</h4>
+        <span class="arrow">→</span>
+      </a>
+      <a class="p-card" href="photography.html" style="--dot:#8B6F8C">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg></span>
+          <span class="pct">15%</span>
+        </span>
+        <h4>Photography</h4>
+        <span class="arrow">→</span>
+      </a>
+      <a class="p-card" href="gardening.html" style="--dot:#7C8A3E">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21V10"/><path d="M12 10C12 5 8 3 4 3c0 4.5 2.5 7 8 7Z"/><path d="M12 14c0-4 3.5-6 8-6 0 4-2.5 6.5-8 6Z"/></svg></span>
+          <span class="pct">13%</span>
+        </span>
+        <h4>Gardening</h4>
+        <span class="arrow">→</span>
+      </a>
+      <a class="p-card" href="nonprofit.html" style="--dot:#7A9471">
+        <span class="tag">
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20.8 8.6c0 4.4-8.8 10.4-8.8 10.4S3.2 13 3.2 8.6a4.4 4.4 0 0 1 8-2.6 4.4 4.4 0 0 1 9.6 2.6Z"/></svg></span>
+          <span class="pct">9%</span>
+        </span>
+        <h4>Nonprofit</h4>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-meta">© 2026 Jordan Reyes — updated as the split changes</p>
+    <ul class="footer-links">
+      <li><a href="mailto:hello@example.com">Email</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
